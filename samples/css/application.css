@@ -1,0 +1,23 @@
+#kanjiViewer {
+    border: 1px solid #dcdcdc;
+    height: 350px;
+}
+/* This class is used to notify of undocumented segments on the
+   documentation pages. */
+.undocumented {
+    background-color: #d2ffbf;
+}
+
+/* Italicise romaji. */
+.romaji {
+    font-style: italic;
+}
+
+/* Radical used. */
+.used {
+    background: pink;
+}
+
+code {
+    color: black;
+}
