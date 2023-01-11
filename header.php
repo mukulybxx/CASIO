@@ -1,7 +1,7 @@
 
 <header class="header_area">
         <div class="main_header_area animated">
-            <div style="background-color: #66b8fd;float: left;width: 100%;">
+            <!-- <div style="background-color: #66b8fd;float: left;width: 100%;">
                 <div class="container">
                     <div class="thumbnail1 col-md3" style="float: right;margin-top: 10px;">
                         <figure class="text-center11">
@@ -17,7 +17,7 @@
                         </figure>
                     </div> 
                 </div>
-            </div>
+            </div> -->
             <div class="container">
                 <nav id="navigation1" class="navigation">
                 <!-- Logo Area Start -->
