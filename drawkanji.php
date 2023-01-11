@@ -204,25 +204,25 @@
 
       <span class="VectorPart">
         <img id="pen" src="/images/btn_tools/btn_pen.png" title="Pen" class="Tool" alt="" />
-        <img id="felt" src="/images/btn_tools/btn_feather.png" title="Felt" class="Tool" alt="" />
+        <!-- <img id="felt" src="/images/btn_tools/btn_feather.png" title="Felt" class="Tool" alt="" /> -->
         <img id="brush" src="/images/btn_tools/btn_brush.png" title="Brush" class="Tool" alt="" />
-        <img id="marker" src="/images/btn_tools/btn_marker.png" title="Marker" class="Tool" alt="" />
+       <!--  <img id="marker" src="/images/btn_tools/btn_marker.png" title="Marker" class="Tool" alt="" />
 
         <img id="basic" name="basic" src="/images/btn_tools/btn_basic_brush.png" title="Basic"
-          class="Tool PureVector DelimiterLeft" alt="" />
+          class="Tool PureVector DelimiterLeft" alt="" /> -->
       </span>
 
       <span class="RasterPart">
         <img id="pencil" src="/images/btn_tools/btn_pencil.png" title="Pencil" class="Tool" alt="" />
-        <img id="waterBrush" src="/images/btn_tools/btn_water_brush.png" title="Water Brush" class="Tool" alt="" />
-        <img id="inkBrush" src="/images/btn_tools/btn_feather.png" title="Ink Brush" class="Tool" alt="" />
-        <img id="crayon" src="/images/btn_tools/btn_crayon.png" title="Crayon" class="Tool" alt="" />
+        <!-- <img id="waterBrush" src="/images/btn_tools/btn_water_brush.png" title="Water Brush" class="Tool" alt="" />
+        <img id="inkBrush" src="/images/btn_tools/btn_feather.png" title="Ink Brush" class="Tool" alt="" /> -->
+        <img style="display:none" id="crayon" src="/images/btn_tools/btn_crayon.png" title="Crayon" class="Tool" alt="" />
       </span>
 
       <img id="eraser" src="/images/btn_tools/eraser.png" class="Tool RasterPart DelimiterLeft" title="Eraser"
         alt="" />
 
-      <span class="VectorPart PureVector DelimiterLeft">
+      <span class="VectorPart PureVector DelimiterLeft" style="margin-left: 0px;">
         <img id="eraserStroke" src="/images/btn_tools/eraser_delayed_partial_stroke.png" class="Tool"
           title="Delayed Stroke Eraser" alt="" />
         <img id="eraserWholeStroke" src="/images/btn_tools/eraser_whole_stroke.png" class="Tool"
@@ -242,7 +242,7 @@
       <input id="load_tool" type="file" accept="application/protobuf; proto=WacomInkFormat3.Tool"
         onchange="app.inkStorage.import(this, 'tool')" />
 
-      <div class="BackToMenu">
+      <div class="BackToMenu" style="display: none;">
         <a href="javascript:void(0)" title="Toggle Pointer prediction" class="Button pointerPrediction"
           onclick="layout.toggleParam('pointerPrediction')">PP</a>
         <a href="javascript:void(0)" title="Toggle downsampling" class="Button downsampling"
