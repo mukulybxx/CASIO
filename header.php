@@ -29,10 +29,10 @@
                     <form action="" method="post" name="kanjimenuform" id="kanjimenuform">
                     
                     <!-- Search panel Start -->
-                    <div class="nav-search" style="padding-top: 40px;">
+                    <!-- <div class="nav-search" style="padding-top: 40px;">
                         <a id="submit_button"><span style="text-align: center;"> <i class="fa fa-arrow-right" style="padding-left: 15px;padding-right: 15px;padding-top: 12px;background-color: #fbfcfd;width: 50px;height: 40px;border: 1px solid #efefef;"></i></span></a>
                         
-                    </div>
+                    </div> -->
                     <!-- Main Menus Wrapper -->
                     <div class="nav-menus-wrapper">
                         <ul class="nav-menu align-to-right" style="padding-top: 20px;">
